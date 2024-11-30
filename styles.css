@@ -1,0 +1,29 @@
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#container #weather-container {
+    flex: 1;
+    margin: 20px;
+    text-align: center;
+}
+
+#container #location-container,
+#container #temperature-container,
+#container #weather-description-container {
+    flex: 1;
+    padding: 20px;
+}
+
+#container #location-name,
+#container #temperature,
+#container #weather-description {
+    font-size: 24px;
+    line-height: 1.5;
+}
